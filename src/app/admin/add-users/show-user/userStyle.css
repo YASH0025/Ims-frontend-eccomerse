@@ -1,0 +1,54 @@
+/* userStyle.css */
+
+/* Styling for radio buttons */
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+tr {
+  transition: filter 0.3s ease;
+}
+
+/* Blur effect on all rows */
+/* .blur-row {
+  /* filter: blur(1px); */
+/* } */ */
+
+/* Remove blur effect on hovered row */
+tr:hover {
+  filter: none;
+}
+/* 3D effect and blur on hover */
+/* tr:hover {
+  transform: scale(1.05);
+  filter: blur(4px);
+} */
+/* Styling for radio button labels */
+label {
+  cursor: pointer;
+}
+
+/* Styling for checked radio buttons */
+input[type="radio"]:checked {
+  border-color: #e20000;
+}
+
+/* Animation for radio buttons */
+input[type="radio"] {
+  transition: border-color 0.3s ease;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}

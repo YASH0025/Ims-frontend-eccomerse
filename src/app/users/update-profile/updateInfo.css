@@ -1,0 +1,5 @@
+/* Define the gradient */
+.ring-gradient {
+  border-image: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
+  border-image-slice: 1;
+}

@@ -1,0 +1,51 @@
+{
+  "name": "init",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.18",
+    "@mui/icons-material": "^5.15.8",
+    "@mui/material": "^5.15.10",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "formik": "^2.4.5",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-icons": "^5.0.1",
+    "react-modal": "^3.16.1",
+    "react-spring": "^9.7.3",
+    "react-toastify": "^10.0.4",
+    "tw-elements": "^1.1.0",
+    "tw-elements-react": "^1.0.0-alpha2",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-modal": "^3.16.3",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
+}
